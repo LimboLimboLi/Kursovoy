@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Vesta</title>
+    
+</head>
+
+<body>
+
+    <header class="head">
+        <div class="content_in_header">
+            
+                <img class="lg" src="./img/logo_transparent.svg" alt="logo">
+        
+   
+                <div class="clearfix_2">
+                   
+                  
+                        <div><a class="menu-item" href="./index.html" >Главная</a></div>
+                        <div><a class="menu-item" href="./fourth.html" >Кафе</a></div>
+                        <div><a class="menu-item" href="./second.html #uslovia" >Условия размещения</a></div>
+                        <div><a class="menu-item" href="./second.html #asd" >Услуги</a></div>
+                        <div><a class="menu-item" href="./third.html" >Номера</a></div>
+                  
+                </div>
+           
+        </div>
+    </header>
+    <div>
+<div class="main_photo"></div></div>
+
+
+    <div class="forma">
+    <form  name="feedback" method="POST" action="/feedback.php">
+        <div>Выберите даты заезда, выезда</div>
+     
+            <p>дата заезда: <input type="date" name="calendar" id = "arriving_date_id">дата выезда: <input type="date" name="calendar" id = "departure_date_id">
+           </p>
+          
+        <div>Размещение в номере
+        </div>
+       <select id = "people_quantity_id">
+        <option>1 взрослый</option> 
+        <option>2 взрослых</option> 
+        <option>3 взрослых</option> 
+        <option>4 взрослых</option> 
+        <option>5 взрослых</option> 
+       </select>
+        <div>Ваше имя</div>
+        <input type="text" name="name" id = "name_id">
+        <div>Ваш email</div>
+        <input type="email" name="email" id = "email_id">
+        <div>Ваш номер телефона</div>
+        <input type="text" name="number" id = "number_id">
+        <div><input class="button-3" type="button" name="submit_btn" value="Найти номер" onclick="submitButtonHandler()"></div>
+      </form>
+    </div>
+
+    <div class = "room-list-container" id = "room-list-container-id">
+
+    </div>
+
+
+
+ <div class="time_of"><p>Официальное время заезда - 14. 00</br>
+    Официальное время выезда - 12.00</p></div>
+
+<div>
+    <p class="text1" >Гостиница «Веста» идеально расположена для посещения всех главных достопримечательностей Бреста и региона, включая Брестскую крепость и Беловежскую пущу. Непосредственная близость к железнодорожному вокзалу, центральному автовокзалу, а также к деловому, административному и торговому центру предоставляет очевидное преимущество гостям отеля.
+        Искренне заботясь о комфортном пребывании гостей, мы рады предложить уютные и комфортные номера для проживания. После ремонта гостиница преобразилась, но при этом сохранила свою самобытность. Интерьеры выполнены в современном стиле и привлекают своей атмосферой спокойствия. В каждом номере есть все необходимое для полноценного отдыха. Из окон гостиницы открывается вид на парк и главную улицу Ленина. 
+        Забронировать номер Вы можете прямо сейчас! Выбирайте интересующие Вас даты, и мы предложим Вам лучший вариант!
+        Наша молодая команда опытных профессионалов каждый день делает все возможное, чтобы Ваше проживание в Бресте было комфортным и приятным. Присоединяйтесь к нам на Facebook, Instagram и будьте всегда в курсе самых свежих новостей и актуальных предложений!</p>
+        
+
+    
+    <div class="hotel1">
+        <div id="slider-container">
+            <button id="previous"><</button>
+            <img id="image" src="./img/photo1.jpg" />
+            <button id="next">></button>
+        </div>
+    </div>
+</div>
+
+    <div class="kontact" id="tto">
+        <div >
+            <h3>Контактная информация</h3>
+            <p>
+            КУП «Гостиница «ВЕСТА»<br>
+             
+            Адрес: 224005 г.Брест, ул.Крупской 16<br>
+            
+            Бронирование:<br>
+            
+            Телефон: +375(162) 37-00-99<br>
+            
+            Телефон/факс: +375(162) 37-00-90<br>
+            
+            Телефон моб.: +375(29) 823 81 81<br>
+            
+            Электронная почта: vestagos@yandex.by<br>
+            Skype:  hotelvesta<br>
+            <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M9.99988 12.43C11.723 12.43 13.1199 11.0331 13.1199 9.31C13.1199 7.58687 11.723 6.19 9.99988 6.19C8.27675 6.19 6.87988 7.58687 6.87988 9.31C6.87988 11.0331 8.27675 12.43 9.99988 12.43Z"
+                    stroke="white" stroke-width="1.5" />
+                <path
+                    d="M1.61995 7.49C3.58995 -1.17 16.42 -1.16 18.38 7.5C19.53 12.58 16.37 16.88 13.6 19.54C11.59 21.48 8.40995 21.48 6.38995 19.54C3.62995 16.88 0.469953 12.57 1.61995 7.49Z"
+                    stroke="white" stroke-width="1.5" />
+            </svg>
+           </p></div>
+        
+        <div class="map">
+            <iframe 
+                     src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa3076e0c0c44277632a861322d9b3ae493125f819bf6a798bba703187d31678a&amp;source=constructor"  frameborder="0"></iframe>
+        </div>
+    </div>
+    
+   
+       
+    <footer class="footer">
+		<div class="footer_brand">
+	
+				<div class="footer_adress">г. Брест <br />
+                    ул.Крупской 16<br>
+                    224005</div>
+			</div>
+
+	
+		
+		<div class="footer_me">+375(23)895-58-00 <br />
+								vestanp@gmail.com <br />
+								alexoli2537@gmail.com</div>
+		<div class="footer_text">
+			КУП "Гостиница Веста" <br />
+			 Hotel Vesta <br />
+             
+		</div>
+	</footer>
+</body>
+<script>
+
+    const rooms = [
+        {
+            releaseDate: "2023.05.13",
+            number: 100,
+            type: " ЛЮКС В",
+            img: "<a href='./third.html #f0'> <img  class='imgchoise' src='img/photo14.jpg'></a>"
+        },
+        {
+            releaseDate: "2023.05.09",
+            number: 125,
+            type: "ЛЮКС D",
+            img: " <a href='./third.html #f1'><img class='imgchoise' src='img/photo13.jpg'></a>"
+        },
+        {
+            releaseDate: "2023.05.18",
+            number: 240,
+            type: " ЛЮКС С",
+            img: " <a href='./third.html #f2'><img class='imgchoise'src='img/photo8.jpg'></a>"
+        },
+        {
+            releaseDate: "2023.05.10",
+            number: 305 ,
+            type: " ЛЮКС A",
+            img: "<a href='./third.html #f3'><img class='imgchoise'src='img/photo6.jpg'></a>"
+        }
+    ]
+
+    const roomContainerElelement = document.getElementById("room-list-container-id");
+    roomContainerElelement.innerHTML = "";
+
+
+    function fillRoomList(rooms){
+        rooms.map((room)=>{
+        let roomElement = document.createElement("div");
+        roomElement.className = "room-list-container__room-container";
+        roomElement.innerHTML = 
+        `  
+        <div class='roomtext'>
+        <h2>Room Number</h2>
+        <div class = "room-container__number" >${room.number}</div>
+        <h2>Room Type</h2>
+        <div class = "room-container__type" >${room.type}</div>
+        <h2>Room Release Date</h2>
+        <div class = "room-container__release-date" >${room.releaseDate}</div>
+        
+        </div>
+        <div class= "room-container_img">${room.img}</div>
+        `;
+        roomContainerElelement.appendChild(roomElement);
+    })
+    }
+
+    fillRoomList(rooms)
+
+    function submitButtonHandler(){
+        let arrivingDateElement = document.getElementById("arriving_date_id");
+        let departureDateElement = document.getElementById("departure_date_id");
+        let peopleQunatityElement = document.getElementById("people_quantity_id");
+        let nameElement = document.getElementById("name_id");
+        let numberElement = document.getElementById("number_id");
+        let emailElement = document.getElementById("email_id");
+        let formData = {
+            arrivingDate: arrivingDateElement.value,
+            departureDate: departureDateElement.value,
+            peopleQunatity: peopleQunatityElement.value,
+            name: nameElement.value,
+            number: numberElement.value,
+            email: emailElement.value
+        }
+        roomContainerElelement.innerHTML = "";
+    
+        let filteredRooms = rooms.filter((room)=>{
+            return new Date(room.releaseDate) < new Date(formData.arrivingDate)
+        })
+        
+        fillRoomList(filteredRooms);
+    }
+
+ // Массив с URL изображений
+ const imagesUrls = [
+            "./img/photo1.jpg",
+            "./img/photo2.jpg",
+            "./img/photo3.jpg",
+        ];
+
+        // индекс для отслеживания текущей картинки
+        let currentIndex = 0;
+
+        // Устанавливаем начальное изображение
+        const imageElement = document.querySelector("#image");
+        imageElement.src = imagesUrls[currentIndex];
+
+        // Функция, отвечающая за переход к следующему изображению
+        function nextImageHandler() {
+            // Увеличиваем индекс текущего изображения
+            currentIndex++;
+
+            // Если текущий индекс больше длины массива изображений, устанавливаем его обратно в 0
+            if (currentIndex >= imagesUrls.length) {
+                currentIndex = 0;
+            }
+
+            // Показываем следующее изображение
+            imageElement.src = imagesUrls[currentIndex];
+        }
+
+        //  Функция, отвечающая за переход к предыдущему изображению
+        function previousImageHandler() {
+            // Уменьшаем индекс
+            currentIndex--;
+
+            // Если текущий индекс меньше 0, устанавливаем его на последний индекс массива изображений
+            if (currentIndex < 0) {
+                currentIndex = imagesUrls.length - 1;
+            }
+
+            // Показываем предыдущее изображение
+            imageElement.src = imagesUrls[currentIndex];
+        }
+
+        // Устанавливаем обработчики изображений на кнопки
+        const nextButton = document.querySelector("#next");
+        nextButton.addEventListener("click", nextImageHandler);
+
+        const previousButton = document.querySelector("#previous");
+        previousButton.addEventListener("click", previousImageHandler);
+    </script>
+   
+</html>
